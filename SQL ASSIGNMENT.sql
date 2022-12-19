@@ -32,7 +32,7 @@ select LOWER(customerid) 'ID' from customers
 select companyname,fax,phone,country,homepage from suppliers
 order by country desc , companyname asc
 
---Q7. Create a report that shows CompanyName, ContactName of all customers from ‘Buenos Aires' only.
+--Q7. Create a report that shows CompanyName, ContactName of all customers from â€˜Buenos Aires' only.
 select companyname,contactname from customers
 where city like('Buenos Aires')
 
